@@ -18,6 +18,26 @@ Due to the large size of the CARLA simulator and related dependencies, the full 
 
 ---
 
+## CARLA Simulation Integration
+
+This project was originally integrated with the CARLA Autonomous Driving Simulator for virtual testing of autonomous vehicle behavior.
+
+The object detection system was used to detect obstacles, vehicles, and traffic signs from the simulated camera feed. Sensor data from the simulation environment was used to estimate object proximity and automatically trigger braking to prevent collisions.
+
+Note:
+Due to the large size and environment dependencies of the CARLA simulator setup, the simulation integration scripts are not included in this repository.
+
+This repository currently includes the object detection pipeline and testing code used for vehicle and traffic object detection.
+
+---
+
+Evaluation Metrics
+mAP@50: ~0.80 
+Precision: ~0.85
+Recall: ~0.78
+
+---
+
 ## Features
 
 - Real-time vehicle detection

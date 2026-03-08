@@ -1,0 +1,5 @@
+train: /content/Dataset/images/train
+val: /content/Dataset/images/val
+
+nc: 12
+names: ['bike', 'bus', 'car', 'drivable area', 'lane', 'motor', 'person', 'rider', 'traffic light', 'traffic sign', 'train', 'truck']
